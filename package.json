@@ -1,0 +1,25 @@
+{
+  "name": "practica4",
+  "version": "1.0.0",
+  "description": "* practica#4 con el Versionamiento SEMVER\r * Github: https://github.com/Andreu2501/SA_Practica3/tree/Practica4\r ## Practica#4\r * Aplicación de un servicio de comida que contiene 3 microservicios implentando un Orquestador\r ## Cliente\r * Solicitar pedido al restaurante\r * Verificar estado del pedido al restaurante\r * Verificar estado del pedido al repartidor\r ## Restaurante\r * Recibir pedido del cliente\r * Informar estado del pedido al cliente\r * Avisar al repartidor que ya está listo el pedido\r ## Repartidor\r * Recibir pedido del restaurante\r * Informar estado del pedido al cliente\r * Marcar como entregado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreu2501/Practica5.git"
+  },
+  "author": "Andrea Flores 201314241",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andreu2501/Practica5/issues"
+  },
+  "homepage": "https://github.com/Andreu2501/Practica5#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
