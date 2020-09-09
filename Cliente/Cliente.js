@@ -35,3 +35,13 @@ app.get('/GetEstadoPedido',body,function(req,res){
         .then(function () {
         });
 });
+
+ /**verificar estado del pedido del repartidor */
+ app.get('/GetEstadoRepartidor',(req,res)=>{
+    var detalle = "Se desea consultar el tracking del pedido";
+    console.log(detalle);
+    l_axios.get('http://localhost:8003/Restaurante/GetEstado')
+    .then(function(response){
+        res.send(response['data']);
+    });
+});
